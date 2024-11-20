@@ -44,7 +44,7 @@ while continuar == True:
         )
     )
 
-    if opcao == 1:
+    '''if opcao == 1:
         print("1 - Resumo")
         mensagem = resumo()
 
@@ -56,7 +56,7 @@ while continuar == True:
         print("3 - Contribuições")
         mensagem = contribuicoes()
 
-    elif opcao == 4:
+     opcao == 4:
         print("4 - Principais Artigos")
         mensagem = artigos()
 
@@ -71,4 +71,4 @@ while continuar == True:
     else:
         mensagem = erro()
 
-    print(mensagem)
+    print(mensagem)'''
