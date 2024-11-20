@@ -15,7 +15,6 @@ def citacoes():
     return mensagem
 
 
-<<<<<<< HEAD
 def contribuicoes():
     mensagem = """
     Linus Torvalds é mais conhecido por ter criado o Linux, um sistema operacional de código aberto que serve como base para milhões de servidores, dispositivos móveis e sistemas em todo o mundo.
@@ -24,7 +23,6 @@ def contribuicoes():
     Sua influência na forma como o software é desenvolvido, distribuído e utilizado continua a moldar a indústria de tecnologia até hoje.
     """
     return mensagem
-=======
 def sair():
     mensagem = "\nObrigado pela leitura!"
     return mensagem
@@ -82,4 +80,3 @@ while continuar == True:
         mensagem = erro()
 
     print(mensagem)'''
->>>>>>> LinusTorvalds-Andrei
