@@ -1,21 +1,21 @@
-def resumo():
-    mensagem = """
-    Linus Benedict Torvalds é um programador e engenheiro de software finlandês, nascido no dia 28 de dezembro de 1969, em Helsinque, na Finlândia.
-    Ele é mais conhecido por ser o criador do sistema operacional Linux, um dos projetos de código aberto mais importantes da história da computação. 
-    Torvalds é considerado uma das figuras mais influentes no mundo da tecnologia, devido ao impacto do Linux no desenvolvimento de servidores, dispositivos móveis e sistemas de computação em geral.
-    """
+
+def artigos():
+    mensagem = '''Linus teve poucas obras públicadas, as principais são:
+    Principais obras publicadas: Just for fun: the story of na acidental revolutionary escrito por Linus Torvlds e David Diamond, 2001.
+    The hacker ethic and the spirit of de information age, onde Linus participou/escreveu o prologo do livro.
+    Além de participação em outras obras como Moody, Glyn: Rebel Code. Engl. the beginning of work: Rebel Code. Eng. Riikka Toivanen and Heikki Karjalainen. Nikkanen, Tuula: The Linux story. Satku, 2000.'''
     return mensagem
 
 
-def doutorado():
-    mensagem = """
-    Linus Torvalds não completou um doutorado formal, mas teve uma trajetória acadêmica notável. Ele estudou ciência da computação na Universidade de Helsinque, onde iniciou o desenvolvimento do Linux.
-    Durante sua graduação, Torvalds foi inspirado pela falta de um sistema operacional gratuito para PCs. O Linux começou como um projeto pessoal, e com o tempo, tornou-se um sistema utilizado por empresas e indivíduos ao redor do mundo.
-    Mesmo sem um doutorado, sua contribuição à ciência da computação foi revolucionária e é considerada uma das mais significativas da história recente.
-    """
+def citacoes():
+    mensagem = "Linus teve algumas frases iconicas, as principais são:"
+    "Na minha opinião, a Microsoft é muito melhor em fazer dinheiro do que Sistemas Operacionais."
+    "Se a Microsoft faz aplicações para Linux que significa que eu ganhei."
+    "Falar é fácil, me mostre o código."
     return mensagem
 
 
+<<<<<<< HEAD
 def contribuicoes():
     mensagem = """
     Linus Torvalds é mais conhecido por ter criado o Linux, um sistema operacional de código aberto que serve como base para milhões de servidores, dispositivos móveis e sistemas em todo o mundo.
@@ -24,3 +24,62 @@ def contribuicoes():
     Sua influência na forma como o software é desenvolvido, distribuído e utilizado continua a moldar a indústria de tecnologia até hoje.
     """
     return mensagem
+=======
+def sair():
+    mensagem = "\nObrigado pela leitura!"
+    return mensagem
+
+
+def erro():
+    mensagem = "\nOpção inválida!"
+    return mensagem
+
+
+print("\nBoa noite! Você está aprendendo sobre Allan Turing.\n")
+
+continuar = True
+while continuar == True:
+
+    opcao = int(
+        input(
+"""
+\nDigite o número correspondente ao menu que você deseja acessar:
+1 - Resumo
+2 - Doutorado
+3 - Contribuições
+4 - Principais Artigos
+5 - Citações
+6 - Sair\n
+"""
+        )
+    )
+
+    '''if opcao == 1:
+        print("1 - Resumo")
+        mensagem = resumo()
+
+    elif opcao == 2:
+        print("2 - Doutorado")
+        mensagem = doutorado()
+
+    elif opcao == 3:
+        print("3 - Contribuições")
+        mensagem = contribuicoes()
+
+     opcao == 4:
+        print("4 - Principais Artigos")
+        mensagem = artigos()
+
+    elif opcao == 5:
+        print("5 - Citações")
+        mensagem = citacoes()
+
+    elif opcao == 6:
+        mensagem = sair()
+        continuar = False
+
+    else:
+        mensagem = erro()
+
+    print(mensagem)'''
+>>>>>>> LinusTorvalds-Andrei
